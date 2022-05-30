@@ -1,0 +1,13 @@
+@charset "utf-8";
+#aaa {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#bbb {
+  font-size: 20px;
+  color: #ffaaaa;
+}
+
+p {
+  text-align: center;
+}

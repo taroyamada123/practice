@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>フォームの練習</title>
+</head>
+
+<body>
+	<form action="/example/FormSampleServlet" method="get">
+		名前：<input type="text" name="name"><br>
+		性別:
+		男<input type="radio" name="gender" value="0">
+		女<input type="radio" name="gender" value="1">
+		年齢<select name="age">
+			<option value="10">10代</option>
+			<option value="20">20代</option>
+			<option value="30">30代</option>
+		</select><br>
+		得意な言語:<br>
+			<input type="checkbox" name="lang" value="Java">Java</option><br>
+			<input type="checkbox" name="lang" value="Python">Python</option><br>
+			<input type="checkbox" name="lang" value="PHP">PHP</option><br>
+
+		</select>
+		<input type="submit" value="送信">
+	</form>
+</body>
+
+</html>
